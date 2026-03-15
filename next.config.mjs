@@ -4,9 +4,9 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   images: {
-    unoptimized: true,
+    unoptimized: true,  // already set, good — required for static export
   },
-  output: 'standalone',
+  output: 'export',   // ← change from 'standalone' to 'export'
 }
 
 export default nextConfig
